@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.login_page{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login_page input,  .login_page button{
+  width: 225px;
+  height: 50px;
+  margin: 7px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  background: #43a047;
+  color: #fff;
+  cursor: pointer;
+}
+.login_page button{
+  background: red;
+}
