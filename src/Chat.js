@@ -23,7 +23,7 @@ const Chat = ({ socket, room, username }) => {
         socket.on("receive_message", (data) => {
             setMsgList((list) => [...list, data]);
         });
-    }, [socket]);
+    },[]);
 
     return (
         <div>
